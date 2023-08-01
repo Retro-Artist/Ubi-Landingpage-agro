@@ -1,4 +1,4 @@
-[link to visualization](https://.vercel.app](https://ubi-landingpage-agro.vercel.app)
+[link to visualization](https://ubi-landingpage-agro.vercel.app)
 
 ## PROJETO UBIDIGITAL LANDINGPAGE AGRO
 
