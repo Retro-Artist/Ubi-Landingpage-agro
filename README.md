@@ -1,10 +1,10 @@
 [link to visualization](https://.vercel.app)
 
-## ReadMe
+## PROJETO UBIDIGITAL LANDINGPAGE AGRO
 
 Projeto de Landing Page Responsiva
 
-## Front end realizado por Rhuan Lucas
+## FRONT END REALIZADO POR RHUAN LUCAS
 
 <details>
   <summary><b>FRONT-END:</b></summary>
@@ -12,8 +12,6 @@ Projeto de Landing Page Responsiva
 - [ARVORES DIGITAIS](https://github.com/Retro-Artist)
 
 </details>
-
-# Ubidigital Landingpage Agro
 
 Landing page Responsiva Mobile e Desktop
 
