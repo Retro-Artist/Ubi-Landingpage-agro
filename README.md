@@ -3,20 +3,15 @@
 
 [link para visualização](https://ubi-landingpage-agro.vercel.app)
 
-Projeto de Landing Page Responsiva
-
 ## FRONT END REALIZADO POR RHUAN LUCAS
 
-<details>
-  <summary><b>FRONT-END:</b></summary>
-    
-- [ARVORES DIGITAIS](https://github.com/Retro-Artist)
-
-</details>
-
-Landing page Responsiva Mobile e Desktop
+[ARVORES DIGITAIS](https://github.com/Retro-Artist)
 
 ## ✔️ Técnicas e tecnologias utilizadas
+
+Projeto de Landing Page Responsiva
+
+Landing page Responsiva Mobile e Desktop
 
 - `CSS`: 
 - `HTML`: 
