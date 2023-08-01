@@ -306,35 +306,32 @@ body {
 the condition is met, so, when the browser interprets that the max-width of the 
 screen has reach 1200px, everything below will take place*/
 
-@media (max-width: 1200px) {
-
-    .main__header {
-        padding: 8%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /*since this container is a column we will use
-         align items to put it on the center instead of justify-content*/
-    }
+@media (max-width: 1024px) {
 
     .apresentacao {
-        flex-direction: column-reverse;
-        padding: 8%;
+        flex-direction: column;
         /*the padding won't be visualized at glance until the content fill all
          the space avaliable, because the padding is too far away from the pre-configured
          content of our desktop*/
     }
 
-    .apresentacao__conteudo {
+    .apresentacao__coluna {
         width: 100%;
     }
 
-    .apresentacao__imagem {
-        width: 50%;
-    }
 
     .apresentacao__links__botao {
         width: 100%;
+    }
+
+
+    .apresentacao__coluna__imagem {
+        width: 600px;
+    }
+
+    .apresentacao__imagem {
+        width: 100%;
+        image-rendering: crisp-edges;
     }
 
 }
