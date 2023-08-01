@@ -3,35 +3,18 @@
 :root {
     --cor-texto-primario: #6C675E;
     --cor-texto-secundario: #FFFFFF;
-    --fonte-principal: 'Sora', sans-serif;
 
-    --cor-botao-hover: #00E275;
-
-    /* 60% */
     --cor-principal: #D5F9D4;
-    /* 30% */
     --cor-secundaria: #FFFFFF;
-    /* 10% */
     --cor-terciaria: #00BF63;
+    --cor-botao-hover: #00E275;
 
     --background-principal: #D5F9D4;
     --background-secundario: #FFFFFF;
     --background-terciario: #100404;
+
+    --fonte-principal: 'Sora', sans-serif;
 }
-
-
-body {
-    box-sizing: border-box;
-    background-color: var(--background-principal);
-    color: var(--cor-texto-primario);
-
-
-}
-
-
-
-
-/*===========PAGINA01============*/
 
 .apresentacao {
     padding: 10% 12%;
@@ -109,7 +92,10 @@ body {
     flex-direction: row;
 }
 
-/*===========PAGINA02============*/
+
+/*==================================================
+                      SECTION 2
+===================================================*/
 
 .metodologia {
     background-color: var(--background-secundario);
@@ -170,6 +156,10 @@ body {
 }
 
 
+/*==================================================
+                      SECTION 3
+===================================================*/
+
 .estrategia {
     background-color: var(--background-principal);
     flex-direction: column;
@@ -212,10 +202,9 @@ body {
 }
 
 
-
-
-/*===========PAGINA03============*/
-
+/*==================================================
+                      SECTION 4
+===================================================*/
 
 .chamada {
     background-color: var(--background-terciario);
@@ -253,8 +242,10 @@ body {
     text-align: right;
 }
 
-/*===========PAGINA04============*/
 
+/*==================================================
+                      SECTION 5
+===================================================*/
 
 .quemsomos {
     background-color: var(--background-secundario);
@@ -281,7 +272,10 @@ body {
     image-rendering: crisp-edges;
 }
 
-/*===========PAGINA05============*/
+
+/*==================================================
+                      SECTION 6
+===================================================*/
 
 .main__footer {
     font-family: var(--fonte-principal);
@@ -295,240 +289,230 @@ body {
     text-align: center;
 }
 
-
+/*==================================================
+            RESPONSIVE TABLETS AND MOBILE
+===================================================*/
 
 @media (max-width: 1260px) {
+    /*<-PERSONAL SWEETSPOT*/
 
-.apresentacao {
-    padding: 22% 12%;
-    flex-direction: column;
-    gap: 20px;
-}
+    .apresentacao {
+        padding: 22% 12%;
+        flex-direction: column;
+        gap: 20px;
+    }
 
-.apresentacao__coluna {
-    width: 100%;
-    gap: 40px;
-}
-
-
-.apresentacao__logo {
-    width: 90%;
-    image-rendering: crisp-edges;
-    align-items: center;
-}
+    .apresentacao__coluna {
+        width: 100%;
+        gap: 40px;
+    }
 
 
-.conteudo__botao__principal {
-    width: 100%;
-    
-}
-
-.conteudo__titulo__principal {
-    font-size: 1.2rem;
-    font-family: var(--fonte-principal);
-    font-weight: 500;
-    line-height: 1.2em;
-}
+    .apresentacao__logo {
+        width: 90%;
+        image-rendering: crisp-edges;
+        align-items: center;
+    }
 
 
-.conteudo__texto__principal {
-    font-size: 1rem;
-    font-family: var(--fonte-principal);
-    font-weight: 300;
-    line-height: 1.2em;
-}
+    .conteudo__botao__principal {
+        width: 100%;
+
+    }
+
+    .conteudo__titulo__principal {
+        font-size: 1.2rem;
+        font-family: var(--fonte-principal);
+        font-weight: 500;
+        line-height: 1.2em;
+    }
 
 
-.conteudo__subtitulo__principal {
-    font-size: 1rem;
-    font-family: var(--fonte-principal);
-    font-weight: 100;
-    line-height: 1.2em;
-}
+    .conteudo__texto__principal {
+        font-size: 1rem;
+        font-family: var(--fonte-principal);
+        font-weight: 300;
+        line-height: 1.2em;
+    }
 
 
-.apresentacao__coluna__imagem {
-    width: auto;
-    align-items: center;
-    
-}
-
-.apresentacao__imagem {
-    width: 100%;
-    image-rendering: crisp-edges;
-}
+    .conteudo__subtitulo__principal {
+        font-size: 1rem;
+        font-family: var(--fonte-principal);
+        font-weight: 100;
+        line-height: 1.2em;
+    }
 
 
+    .apresentacao__coluna__imagem {
+        width: auto;
+        align-items: center;
 
-/* Mobile */
+    }
 
-    
+    .apresentacao__imagem {
+        width: 100%;
+        image-rendering: crisp-edges;
+    }
 
-.metodologia {
-    padding: 20% 0%;
-    display: flex;
-    align-items: center;
-}
+    .metodologia {
+        padding: 20% 0%;
+        display: flex;
+        align-items: center;
+    }
 
-.metodologia__coluna {
-    width: 100%;
-}
+    .metodologia__coluna {
+        width: 100%;
+    }
 
-.metodologia__objetos {
-    flex-direction: column;
-    padding: 10% 8%;
-    gap: 20px;
-}
+    .metodologia__objetos {
+        flex-direction: column;
+        padding: 10% 8%;
+        gap: 20px;
+    }
 
-.metodologia__elemento {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    .metodologia__elemento {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
-    border-radius: 20px;
-    padding: 20px 30px;
-    width: auto;
+        border-radius: 20px;
+        padding: 20px 30px;
+        width: auto;
 
-    font-weight: 200;
-    font-size: 0.875rem;
-    line-height: 1.4em;
-    text-align: center;
+        font-weight: 200;
+        font-size: 0.875rem;
+        line-height: 1.4em;
+        text-align: center;
 
-    font-family: var(--fonte-principal);
-    color: var(--cor-texto-secundario);
-    background-color: var(--cor-terciaria);
-}
+        font-family: var(--fonte-principal);
+        color: var(--cor-texto-secundario);
+        background-color: var(--cor-terciaria);
+    }
 
-.metodologia__elemento__titulo {
-    font-size: 0.875rem;
-    font-weight: 800;
+    .metodologia__elemento__titulo {
+        font-size: 0.875rem;
+        font-weight: 800;
 
-    text-align: center;
-    text-transform: uppercase;
-}
+        text-align: center;
+        text-transform: uppercase;
+    }
 
-.metodologia__imagem {
-    image-rendering: crisp-edges;
-    margin-bottom: -30%;
-    width: 100%;
-}
+    .metodologia__imagem {
+        image-rendering: crisp-edges;
+        margin-bottom: -30%;
+        width: 100%;
+    }
 
 
 
+    .estrategia {
+        padding: 20% 8%;
+    }
 
-.estrategia {
-    padding: 20% 8%;
-}
-
-.estrategia__coluna {
-    width: 100%;
-    gap: 50px
-}
-
-
-.estrategia__titulo__principal {
-    font-size: 1.4rem;
-    font-family: var(--fonte-principal);
-    font-weight: 500;
-    line-height: 1.2em;
-}
+    .estrategia__coluna {
+        width: 100%;
+        gap: 50px
+    }
 
 
-.estrategia__coluna__texto {
-    font-size: 1rem;
-    font-family: var(--fonte-principal);
-    font-weight: 300;
-    line-height: 1.2em;
-    text-align: start;
-}
+    .estrategia__titulo__principal {
+        font-size: 1.4rem;
+        font-family: var(--fonte-principal);
+        font-weight: 500;
+        line-height: 1.2em;
+    }
 
 
-.estrategia__imagem {
-    image-rendering: crisp-edges;
-    margin-bottom: -30%;
-    width: auto;
-}
+    .estrategia__coluna__texto {
+        font-size: 1rem;
+        font-family: var(--fonte-principal);
+        font-weight: 300;
+        line-height: 1.2em;
+        text-align: start;
+    }
 
 
-
-.chamada {
-    background-color: var(--background-terciario);
-    padding: 20% 12%;
-    align-items: end;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.chamada__coluna {
-    width: 40%;
-    flex-direction: column;
-    gap: 50px 0px;
-}
-
-
-.chamada__coluna__imagem {
-    width: auto;
-}
-
-.chamada__imagem {
-    width: 100%;
-    image-rendering: crisp-edges;
-}
-
-.chamada__titulo__principal {
-    font-size: 1rem;
-    font-family: var(--fonte-principal);
-    font-weight: 500;
-    line-height: 1.2em;
-    color: var(--cor-secundaria);
-    text-align: right;
-}
+    .estrategia__imagem {
+        image-rendering: crisp-edges;
+        margin-bottom: -30%;
+        width: auto;
+    }
 
 
 
+    .chamada {
+        background-color: var(--background-terciario);
+        padding: 20% 12%;
+        align-items: end;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
+    }
 
-.quemsomos {
-    background-color: var(--background-secundario);
-    padding: 20% 12%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.quemsomos__coluna {
-    width: 100%;
-    flex-direction: column;
-    gap: 50px 0px;
-}
-
-.quemsomos__coluna__imagem {
-    width: auto;
-    padding: 10%;
-}
-
-.quemsomos__imagem {
-    width: 100%;
-    image-rendering: crisp-edges;
-   
-}
+    .chamada__coluna {
+        width: 40%;
+        flex-direction: column;
+        gap: 50px 0px;
+    }
 
 
+    .chamada__coluna__imagem {
+        width: auto;
+    }
 
+    .chamada__imagem {
+        width: 100%;
+        image-rendering: crisp-edges;
+    }
 
-.main__footer {
-    font-family: var(--fonte-principal);
-    font-weight: 200;
-    font-size: 0.6rem;
-    text-transform: uppercase;
+    .chamada__titulo__principal {
+        font-size: 1rem;
+        font-family: var(--fonte-principal);
+        font-weight: 500;
+        line-height: 1.2em;
+        color: var(--cor-secundaria);
+        text-align: right;
+    }
 
-    background-color: var(--background-terciario);
-    color: var(--cor-secundaria);
-    padding: 4em 0em;
-    text-align: center;
-}
+    .quemsomos {
+        background-color: var(--background-secundario);
+        padding: 20% 12%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .quemsomos__coluna {
+        width: 100%;
+        flex-direction: column;
+        gap: 50px 0px;
+    }
+
+    .quemsomos__coluna__imagem {
+        width: auto;
+        padding: 10%;
+    }
+
+    .quemsomos__imagem {
+        width: 100%;
+        image-rendering: crisp-edges;
+
+    }
+
+    .main__footer {
+        font-family: var(--fonte-principal);
+        font-weight: 200;
+        font-size: 0.6rem;
+        text-transform: uppercase;
+
+        background-color: var(--background-terciario);
+        color: var(--cor-secundaria);
+        padding: 4em 0em;
+        text-align: center;
+    }
 
 }
 
@@ -538,4 +522,3 @@ e então atribuímos os ajustes necessários dentro de cada media query, dessa f
 Podemos também definir intervalos para os tamanhos de telas com um único media query, atribuímos o valor mínimo e depois
 o valor máximo separando ele pelo atributo and, veja: @media (min-width: 480px ) and (max-width: 800px), nesse caso os
 estilos serão aplicados em telas de no mínimo “480px” e de no máximo “800px”.*/
-

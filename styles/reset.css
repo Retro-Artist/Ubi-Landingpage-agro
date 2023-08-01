@@ -1,9 +1,15 @@
-*{
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
 hr {
-    border: 0px solid transparent; 
+    border: 0px solid transparent;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--background-principal);
+    color: var(--cor-texto-primario);
 }
