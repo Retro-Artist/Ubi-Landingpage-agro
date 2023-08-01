@@ -302,145 +302,141 @@ body {
     text-align: center;
 }
 
-/* css break points: every css attribute inside "@media" will be activated when
-the condition is met, so, when the browser interprets that the max-width of the 
-screen has reach 1200px, everything below will take place*/
+
 
 @media (max-width: 1024px) {
 
-    .apresentacao {
-        padding: 14% 12%;
-        flex-direction: column;
-        /*the padding won't be visualized at glance until the content fill all
-         the space avaliable, because the padding is too far away from the pre-configured
-         content of our desktop*/
-    }
+.apresentacao {
+    padding: 22% 12%;
+    flex-direction: column;
+    gap: 20px;
+}
 
-    .apresentacao__coluna {
-        width: 100%;
-    }
-
-
-    .apresentacao__logo {
-        width: auto;
-        image-rendering: crisp-edges;
-        align-items: center;
-    }
+.apresentacao__coluna {
+    width: 100%;
+    gap: 40px;
+}
 
 
-    .conteudo__botao__principal {
-        width: 100%;
-    }
-
-    .conteudo__titulo__principal {
-        font-size: 2rem;
-        font-family: var(--fonte-principal);
-        font-weight: 500;
-        line-height: 1.2em;
-    }
+.apresentacao__logo {
+    width: auto;
+    image-rendering: crisp-edges;
+    align-items: center;
+}
 
 
-    .conteudo__subtitulo__principal {
-        font-size: 1rem;
-        font-family: var(--fonte-principal);
-        font-weight: 100;
-        line-height: 1.2em;
-    }
+.conteudo__botao__principal {
+    width: 100%;
+}
+
+.conteudo__titulo__principal {
+    font-size: 1.2rem;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    line-height: 1.2em;
+}
 
 
+.conteudo__texto__principal {
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    line-height: 1.2em;
+}
 
-    .apresentacao__coluna__imagem {
-        width: auto;
-        align-items: center;
-        
-    }
+
+.conteudo__subtitulo__principal {
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+    font-weight: 100;
+    line-height: 1.2em;
+}
+
+
+.apresentacao__coluna__imagem {
+    width: auto;
+    align-items: center;
     
-    .apresentacao__imagem {
-        width: 100%;
-        image-rendering: crisp-edges;
-    }
+}
+
+.apresentacao__imagem {
+    width: 100%;
+    image-rendering: crisp-edges;
+}
 
 
-    .metodologia {
-        padding: 20% 0%;
-        display: flex;
-        align-items: center;
-    }
 
-    .metodologia__coluna {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 20px
-    }
+/* Mobile */
 
-    .metodologia__objetos {
-        display: flex;
-        flex-direction: column;
-        padding: 10% 4%;
-        gap: 29px;
-    }
+    
 
-    .metodologia__elemento {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+.metodologia {
+    padding: 20% 0%;
+    display: flex;
+    align-items: center;
+}
 
-        border-radius: 10px;
-        padding: 10% 0%;
-        width: 100%;
+.metodologia__coluna {
+    width: 100%;
+}
 
-        font-weight: 200;
-        font-size: 0.8rem;
-        line-height: 1.4em;
-        text-align: center;
+.metodologia__objetos {
+    flex-direction: column;
+    padding: 10% 8%;
+    gap: 10px;
+}
 
-        font-family: var(--fonte-principal);
-        color: var(--cor-texto-secundario);
-        background-color: var(--cor-terciaria);
-    }
+.metodologia__elemento {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-    .metodologia__elemento__titulo {
+    border-radius: 20px;
+    padding: 10% 0%;
+    width: 100%;
 
-        margin-top: 1em;
-        font-size: 0.875rem;
-        font-weight: 800;
+    font-weight: 200;
+    font-size: 0.875rem;
+    line-height: 1.2em;
+    text-align: center;
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto-secundario);
+    background-color: var(--cor-terciaria);
+}
+
+.metodologia__elemento__titulo {
+
+    margin-top: 3em;
+    font-size: 0.875rem;
+    font-weight: 800;
 
 
-        text-align: center;
-        text-transform: uppercase;
-    }
+    text-align: center;
+    text-transform: uppercase;
+}
 
-    .metodologia__imagem {
-        image-rendering: crisp-edges;
-        margin-bottom: -30%;
-        width: 100%;
-    }
+.metodologia__imagem {
+    image-rendering: crisp-edges;
+    margin-bottom: -30%;
+    width: 100%;
+}
 
 
 
 
 .estrategia {
-    background-color: var(--background-principal);
-    flex-direction: column;
-
-    padding: 12% 12%;
-    display: flex;
-    align-items: center;
+    padding: 20% 8%;
 }
 
 .estrategia__coluna {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 100px
+    gap: 50px
 }
 
 
 .estrategia__titulo__principal {
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-family: var(--fonte-principal);
     font-weight: 500;
     line-height: 1.2em;
@@ -450,7 +446,7 @@ screen has reach 1200px, everything below will take place*/
 .estrategia__coluna__texto {
     font-size: 1rem;
     font-family: var(--fonte-principal);
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     text-align: start;
 }
@@ -458,8 +454,8 @@ screen has reach 1200px, everything below will take place*/
 
 .estrategia__imagem {
     image-rendering: crisp-edges;
-    margin-bottom: -300px;
-    width: 100%;
+    margin-bottom: -30%;
+    width: auto;
 }
 
 
