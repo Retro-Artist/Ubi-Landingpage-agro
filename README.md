@@ -1,6 +1,6 @@
 [link to visualization](https://.vercel.app)
 
-## LeiaMe
+## ReadMe
 
 Projeto de Landing Page Responsiva
 
