@@ -265,7 +265,7 @@ body {
 
 .quemsomos {
     background-color: var(--background-secundario);
-    padding: 18% 12%;
+    padding: 16% 12%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -296,9 +296,9 @@ body {
     font-size: 1rem;
     text-transform: uppercase;
 
-    background-color: var(--cor-terciaria);
-    color: var(--cor-principal);
-    padding: 1.5rem;
+    background-color: var(--background-terciario);
+    color: var(--cor-secundaria);
+    padding: 2.5rem;
     text-align: center;
 }
 
