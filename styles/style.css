@@ -309,6 +309,7 @@ screen has reach 1200px, everything below will take place*/
 @media (max-width: 1024px) {
 
     .apresentacao {
+        padding: 14% 12%;
         flex-direction: column;
         /*the padding won't be visualized at glance until the content fill all
          the space avaliable, because the padding is too far away from the pre-configured
@@ -320,27 +321,48 @@ screen has reach 1200px, everything below will take place*/
     }
 
 
-    .apresentacao__links__botao {
+    .apresentacao__logo {
+        width: auto;
+        image-rendering: crisp-edges;
+        align-items: center;
+    }
+
+
+    .conteudo__botao__principal {
         width: 100%;
     }
 
-
-    .apresentacao__coluna__imagem {
-        width: 600px;
+    .conteudo__titulo__principal {
+        font-size: 2rem;
+        font-family: var(--fonte-principal);
+        font-weight: 500;
+        line-height: 1.2em;
     }
 
+
+    .conteudo__subtitulo__principal {
+        font-size: 1rem;
+        font-family: var(--fonte-principal);
+        font-weight: 100;
+        line-height: 1.2em;
+    }
+
+
+
+    .apresentacao__coluna__imagem {
+        width: auto;
+        align-items: center;
+        
+    }
+    
     .apresentacao__imagem {
         width: 100%;
         image-rendering: crisp-edges;
     }
 
 
-
-
-
-
     .metodologia {
-        padding: 10% 12%;
+        padding: 20% 0%;
         display: flex;
         align-items: center;
     }
@@ -350,14 +372,14 @@ screen has reach 1200px, everything below will take place*/
         display: flex;
         flex-direction: column;
         text-align: center;
-        gap: 10px
+        gap: 20px
     }
 
     .metodologia__objetos {
         display: flex;
-        flex-direction: row;
-        padding: 4% 0%;
-        gap: 12px;
+        flex-direction: column;
+        padding: 10% 4%;
+        gap: 29px;
     }
 
     .metodologia__elemento {
@@ -365,12 +387,12 @@ screen has reach 1200px, everything below will take place*/
         flex-direction: column;
         justify-content: space-between;
 
-        border-radius: 24px;
-        padding: 4% 4%;
-        width: 35%;
+        border-radius: 10px;
+        padding: 10% 0%;
+        width: 100%;
 
         font-weight: 200;
-        font-size: 0.875rem;
+        font-size: 0.8rem;
         line-height: 1.4em;
         text-align: center;
 
@@ -381,7 +403,7 @@ screen has reach 1200px, everything below will take place*/
 
     .metodologia__elemento__titulo {
 
-        margin-top: 2em;
+        margin-top: 1em;
         font-size: 0.875rem;
         font-weight: 800;
 
@@ -392,10 +414,91 @@ screen has reach 1200px, everything below will take place*/
 
     .metodologia__imagem {
         image-rendering: crisp-edges;
-        margin-bottom: -150px;
+        margin-bottom: -30%;
         width: 100%;
     }
 
+
+
+
+.estrategia {
+    background-color: var(--background-principal);
+    flex-direction: column;
+
+    padding: 12% 12%;
+    display: flex;
+    align-items: center;
+}
+
+.estrategia__coluna {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 100px
+}
+
+
+.estrategia__titulo__principal {
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+
+.estrategia__coluna__texto {
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+    font-weight: 100;
+    line-height: 1.2em;
+    text-align: start;
+}
+
+
+.estrategia__imagem {
+    image-rendering: crisp-edges;
+    margin-bottom: -300px;
+    width: 100%;
+}
+
+
+
+.chamada {
+    background-color: var(--background-terciario);
+    padding: 18% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.chamada__coluna {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0px;
+}
+
+
+.chamada__coluna__imagem {
+    width: auto;
+}
+
+.chamada__imagem {
+    width: 80%;
+    image-rendering: crisp-edges;
+}
+
+.chamada__titulo__principal {
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    line-height: 1.2em;
+    color: var(--cor-secundaria);
+    text-align: right;
+}
 
 }
 
