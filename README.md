@@ -1,18 +1,7 @@
 
-## PROJETO UBIDIGITAL LANDINGPAGE AGRO
+## Projeto Landing Page Responsiva Mobile [LINK PARA VISUALIZAÇÃO](https://ubi-landingpage-agro.vercel.app)
 
-[LINK PARA VISUALIZAÇÃO](https://ubi-landingpage-agro.vercel.app)
+## Front End Realizado por Rhuan Lucas: [ARVORES DIGITAIS](https://github.com/Retro-Artist)
 
-## FRONT END REALIZADO POR RHUAN LUCAS
-
-[ARVORES DIGITAIS](https://github.com/Retro-Artist)
-
-## ✔️ Técnicas e tecnologias utilizadas
-
-Projeto de Landing Page Responsiva
-
-Landing page Responsiva Mobile e Desktop
-
-- `CSS`: 
-- `HTML`: 
-- `FLEXBOX CSS`: 
+## ✔ HTML JAVASCRIPT
+## ✔ RAW CSS FLEXBOX
