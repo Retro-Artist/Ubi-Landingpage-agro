@@ -2,7 +2,7 @@
 
 ## LeiaMe
 
-Projeto para empresa de marketing digital UBIDIGITAL
+Projeto de Landing Page Responsiva
 
 ## Front end realizado por Rhuan Lucas
 
