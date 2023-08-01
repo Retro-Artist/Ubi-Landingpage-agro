@@ -334,6 +334,69 @@ screen has reach 1200px, everything below will take place*/
         image-rendering: crisp-edges;
     }
 
+
+
+
+
+
+    .metodologia {
+        padding: 10% 12%;
+        display: flex;
+        align-items: center;
+    }
+
+    .metodologia__coluna {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px
+    }
+
+    .metodologia__objetos {
+        display: flex;
+        flex-direction: row;
+        padding: 4% 0%;
+        gap: 12px;
+    }
+
+    .metodologia__elemento {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        border-radius: 24px;
+        padding: 4% 4%;
+        width: 35%;
+
+        font-weight: 200;
+        font-size: 0.875rem;
+        line-height: 1.4em;
+        text-align: center;
+
+        font-family: var(--fonte-principal);
+        color: var(--cor-texto-secundario);
+        background-color: var(--cor-terciaria);
+    }
+
+    .metodologia__elemento__titulo {
+
+        margin-top: 2em;
+        font-size: 0.875rem;
+        font-weight: 800;
+
+
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .metodologia__imagem {
+        image-rendering: crisp-edges;
+        margin-bottom: -150px;
+        width: 100%;
+    }
+
+
 }
 
 /*Podemos definir uma largura máxima de “480px” para o celular: @media (max-width: 480px),
