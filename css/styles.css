@@ -7,7 +7,7 @@
     --cor-principal: #D5F9D4;
     --cor-secundaria: #FFFFFF;
     --cor-terciaria: #00BF63;
-    --cor-botao-hover: #00E275;
+    --cor-botao-hover: #50f2a4;
 
     --background-principal: #D5F9D4;
     --background-secundario: #FFFFFF;
@@ -94,7 +94,7 @@
 
 
 /*==================================================
-                      SECTION 2
+                      METODOLOGIA
 ===================================================*/
 
 .metodologia {
@@ -157,7 +157,7 @@
 
 
 /*==================================================
-                      SECTION 3
+                      ESTRATEGIA
 ===================================================*/
 
 .estrategia {
@@ -203,10 +203,10 @@
 
 
 /*==================================================
-                      SECTION 4
+                    FRONTEIRAS
 ===================================================*/
 
-.chamada {
+.fronteiras {
     background-color: var(--background-terciario);
     padding: 18% 12%;
     display: flex;
@@ -216,7 +216,7 @@
     gap: 40px;
 }
 
-.chamada__coluna {
+.fronteiras__coluna {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -224,16 +224,16 @@
 }
 
 
-.chamada__coluna__imagem {
+.fronteiras__coluna__imagem {
     width: 840px;
 }
 
-.chamada__imagem {
+.fronteiras__imagem {
     width: 80%;
     image-rendering: crisp-edges;
 }
 
-.chamada__titulo__principal {
+.fronteiras__titulo__principal {
     font-size: 2rem;
     font-family: var(--fonte-principal);
     font-weight: 500;
@@ -244,7 +244,143 @@
 
 
 /*==================================================
-                      SECTION 5
+                SERVIÇOS MARKETING
+===================================================*/
+
+.marketing {
+    background-color: var(--background-secundario);
+    padding: 18% 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto-primario);
+}
+
+.marketing__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.marketing__segment {
+    align-items: center;
+    display: flex;
+}
+
+.element__icon {
+    width: 30px;
+}
+
+.header__marketing {
+    color: var(--background-terciario);
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.element__subtitle {
+    color: var(--background-terciario);
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2%;
+}
+
+.marketing__conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.marketing__coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8%;
+
+    height: 33.3333%;
+
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+
+    color: var(--background-terciario);
+    background-color: transparent;
+}
+
+
+/*==================================================
+                     PARA QUEM
+===================================================*/
+
+.paraquem {
+    background-color: var(--background-terciario);
+    display: flex;
+    justify-content: space-between;
+    padding: 18% 12%;
+
+}
+
+.paraquem__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.header__paraquem {
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    padding: 2em;
+    font-size: 1.25rem;
+}
+
+.paraquem__segment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+}
+
+.paraquem__conteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+.paraquem__coluna {
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 2%;
+    width: 33.33333%;
+    border-radius: 8px;
+
+    font-size: 0.875rem;
+    font-weight: 200;
+    text-align: left;
+
+    color: var(--cor-secundaria);
+
+    border: 1px solid var(--background-secundario);
+    font-family: var(--fonte-principal);
+    background-color: transparent;
+
+}
+
+.paraquem__icon {
+    height: 40px;
+    margin-left: 50px;
+
+}
+
+.highlight__paraquem {
+    color: var(--cor-botao-hover);
+}
+
+
+/*==================================================
+                      QUEM SOMOS
 ===================================================*/
 
 .quemsomos {
@@ -274,7 +410,102 @@
 
 
 /*==================================================
-                      SECTION 6
+                      FORMULARIO
+===================================================*/
+
+.formulario {
+    background-color: var(--background-terciario);
+    padding: 18% 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__formulario {
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    text-align: center;
+
+}
+
+.formulario__texto {
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+}
+
+.formulario__texto__hightlight {
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+    color: var(--cor-botao-hover);
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: var(--background-secundario);
+    font-family: var(--fonte-principal);
+}
+
+.input-group {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    padding: 0.62rem;
+    border-radius: 5px;
+    border: 2px solid var(--cor-secundaria);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    border: 2px solid var(--cor-secundaria);
+    background-color: var(--cor-botao-hover);
+    color: var(--cor-texto-primario);
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/*==================================================
+                      FOOTER
 ===================================================*/
 
 .main__footer {
@@ -283,18 +514,25 @@
     font-size: 1rem;
     text-transform: uppercase;
 
-    background-color: var(--background-terciario);
-    color: var(--cor-secundaria);
+    background-color: var(--background-secundario);
+    color: var(--cor-texto-primario);
     padding: 2.5rem;
     text-align: center;
 }
 
+
+
+
+
 /*==================================================
+
+
             RESPONSIVE TABLETS AND MOBILE
+
+
 ===================================================*/
 
-@media (max-width: 1260px) {
-    /*<-PERSONAL SWEETSPOT*/
+@media (max-width: 1260px) {/*<-PERSONAL SWEETSPOT*/
 
     .apresentacao {
         padding: 22% 12%;
@@ -355,6 +593,9 @@
         image-rendering: crisp-edges;
     }
 
+
+    /* metodologia */
+
     .metodologia {
         padding: 20% 0%;
         display: flex;
@@ -405,6 +646,7 @@
     }
 
 
+    /* estrategia */
 
     .estrategia {
         padding: 20% 8%;
@@ -415,14 +657,12 @@
         gap: 50px
     }
 
-
     .estrategia__titulo__principal {
         font-size: 1.4rem;
         font-family: var(--fonte-principal);
         font-weight: 500;
         line-height: 1.2em;
     }
-
 
     .estrategia__coluna__texto {
         font-size: 1rem;
@@ -432,7 +672,6 @@
         text-align: start;
     }
 
-
     .estrategia__imagem {
         image-rendering: crisp-edges;
         margin-bottom: -30%;
@@ -441,7 +680,9 @@
 
 
 
-    .chamada {
+    /* fronteiras */
+
+    .fronteiras {
         background-color: var(--background-terciario);
         padding: 20% 12%;
         align-items: end;
@@ -450,23 +691,23 @@
         gap: 10px;
     }
 
-    .chamada__coluna {
+    .fronteiras__coluna {
         width: 40%;
         flex-direction: column;
         gap: 50px 0px;
     }
 
 
-    .chamada__coluna__imagem {
+    .fronteiras__coluna__imagem {
         width: auto;
     }
 
-    .chamada__imagem {
+    .fronteiras__imagem {
         width: 100%;
         image-rendering: crisp-edges;
     }
 
-    .chamada__titulo__principal {
+    .fronteiras__titulo__principal {
         font-size: 1rem;
         font-family: var(--fonte-principal);
         font-weight: 500;
@@ -474,6 +715,10 @@
         color: var(--cor-secundaria);
         text-align: right;
     }
+
+
+
+    /* quem somos */
 
     .quemsomos {
         background-color: var(--background-secundario);
@@ -502,23 +747,176 @@
 
     }
 
+
+
+    /* marketing */
+
+    .marketing {
+        background-color: var(--background-secundario);
+        padding: 18% 0%;
+        display: flex;
+        flex-direction: column;
+        font-family: var(--fonte-principal);
+        color: var(--cor-texto-primario);
+    }
+
+    .marketing__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .marketing__segment {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .element__icon {
+        width: 30px;
+    }
+
+    .header__marketing {
+        color: var(--background-terciario);
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    .element__subtitle {
+        color: var(--background-terciario);
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .marketing__conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .marketing__coluna {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        font-size: 0.875rem;
+        font-weight: 400;
+        text-align: center;
+
+        color: var(--background-terciario);
+        background-color: transparent;
+    }
+
+
+
+    /* paraquem */
+
+    .paraquem {
+        background-color: var(--background-terciario);
+        justify-content: space-between;
+        display: flex;
+        padding: 14% 0%;
+    }
+
+    .paraquem__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        justify-content: space-between;
+    }
+
+    .header__paraquem {
+        font-family: var(--fonte-principal);
+        color: var(--cor-secundaria);
+        padding: 1em;
+        font-size: 1rem;
+    }
+
+    .paraquem__segment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .paraquem__conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paraquem__coluna {
+
+        display: flex;
+        flex-direction: row;
+
+        padding: 4%;
+        width: 80%;
+        border-radius: 8px;
+
+        font-size: 0.875rem;
+        font-weight: 200;
+        text-align: left;
+
+        color: var(--cor-secundaria);
+
+        border: 1px solid var(--background-secundario);
+        font-family: var(--fonte-principal);
+        background-color: transparent;
+    }
+
+    .paraquem__icon {
+        height: 30px;
+        display: none;
+    }
+
+
+    /* formulario */
+
+    .formulario {
+        background-color: var(--background-terciario);
+        padding: 10% 8%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+
+    .header__formulario {
+        padding: 12% 0%;
+        font-weight: 200;
+        font-size: 2rem;
+        font-family: var(--fonte-principal);
+        color: var(--cor-secundaria);
+        text-align: center;
+
+    }
+
+    .formulario__texto {
+        font-weight: 200;
+        font-size: 1rem;
+        text-align: center;
+        font-family: var(--fonte-principal);
+        color: var(--cor-secundaria);
+    }
+
+
     .main__footer {
         font-family: var(--fonte-principal);
         font-weight: 200;
         font-size: 0.6rem;
         text-transform: uppercase;
 
-        background-color: var(--background-terciario);
-        color: var(--cor-secundaria);
+        background-color: var(--background-secundario);
+        color: var(--background-terciario);
         padding: 4em 0em;
         text-align: center;
     }
 
 }
-
-/*Podemos definir uma largura máxima de “480px” para o celular: @media (max-width: 480px),
-e em outra media query definir uma largura máxima de “800px” para os tablets: @media (max-width: 800px),
-e então atribuímos os ajustes necessários dentro de cada media query, dessa forma teremos nosso site 100% responsivo.
-Podemos também definir intervalos para os tamanhos de telas com um único media query, atribuímos o valor mínimo e depois
-o valor máximo separando ele pelo atributo and, veja: @media (min-width: 480px ) and (max-width: 800px), nesse caso os
-estilos serão aplicados em telas de no mínimo “480px” e de no máximo “800px”.*/
