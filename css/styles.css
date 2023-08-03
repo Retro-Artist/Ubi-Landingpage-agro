@@ -692,7 +692,7 @@
     }
 
     .fronteiras__coluna {
-        width: 40%;
+        width: auto;
         flex-direction: column;
         gap: 50px 0px;
     }
@@ -713,7 +713,7 @@
         font-weight: 500;
         line-height: 1.2em;
         color: var(--cor-secundaria);
-        text-align: right;
+        text-align: center;
     }
 
 
