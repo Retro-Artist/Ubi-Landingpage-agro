@@ -94,7 +94,7 @@
 
 
 /*==================================================
-                      METODOLOGIA
+            IMPLANTACAO E METODOLOGIA
 ===================================================*/
 
 .metodologia {
@@ -157,7 +157,7 @@
 
 
 /*==================================================
-                      ESTRATEGIA
+                 MAQUINA DE RECEITA
 ===================================================*/
 
 .estrategia {
@@ -203,7 +203,7 @@
 
 
 /*==================================================
-                    FRONTEIRAS
+                PRINCIPAIS FRONTEIRAS
 ===================================================*/
 
 .fronteiras {
@@ -244,12 +244,12 @@
 
 
 /*==================================================
-                SERVIÇOS MARKETING
+            MARKETING DE ALTA PERFORMANCE
 ===================================================*/
 
 .marketing {
     background-color: var(--background-secundario);
-    padding: 18% 20%;
+    padding: 16% 14%;
     display: flex;
     flex-direction: column;
     font-family: var(--fonte-principal);
@@ -261,7 +261,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .marketing__segment {
@@ -270,7 +270,7 @@
 }
 
 .element__icon {
-    width: 30px;
+    width: 60px;
 }
 
 .header__marketing {
@@ -281,9 +281,8 @@
 
 .element__subtitle {
     color: var(--background-terciario);
-    text-align: center;
     font-size: 1.2rem;
-    padding: 2%;
+    padding: 3% 0;
 }
 
 .marketing__conteudo {
@@ -304,12 +303,11 @@
     text-align: center;
 
     color: var(--background-terciario);
-    background-color: transparent;
 }
 
 
 /*==================================================
-                     PARA QUEM
+            PARA QUEM É ESSA CONSULTORIA?
 ===================================================*/
 
 .paraquem {
@@ -410,7 +408,7 @@
 
 
 /*==================================================
-                      FORMULARIO
+            FORMULARIO CALL TO ACTION 
 ===================================================*/
 
 .formulario {
@@ -505,7 +503,7 @@
 
 
 /*==================================================
-                      FOOTER
+                FOOTER PRINCIPAL
 ===================================================*/
 
 .main__footer {
@@ -527,7 +525,7 @@
 /*==================================================
 
 
-            RESPONSIVE TABLETS AND MOBILE
+            RESPONSIVO TABLETS & MOBILE
 
 
 ===================================================*/
@@ -594,7 +592,11 @@
     }
 
 
-    /* metodologia */
+/*=================
+
+    #metodologia
+
+==================*/
 
     .metodologia {
         padding: 20% 0%;
@@ -646,7 +648,11 @@
     }
 
 
-    /* estrategia */
+/*=================
+
+  #maquina rentavel
+
+==================*/
 
     .estrategia {
         padding: 20% 8%;
@@ -680,7 +686,12 @@
 
 
 
-    /* fronteiras */
+/*================
+
+    #principais
+    fronteiras
+
+=================*/
 
     .fronteiras {
         background-color: var(--background-terciario);
@@ -718,7 +729,11 @@
 
 
 
-    /* quem somos */
+/*=================
+
+    #quem somos
+
+==================*/
 
     .quemsomos {
         background-color: var(--background-secundario);
@@ -749,7 +764,12 @@
 
 
 
-    /* marketing */
+/*===============
+
+    #servicos
+    marketing
+
+================*/
 
     .marketing {
         background-color: var(--background-secundario);
@@ -809,7 +829,11 @@
 
 
 
-    /* paraquem */
+/*=================
+
+    #para quem
+
+==================*/
 
     .paraquem {
         background-color: var(--background-terciario);
@@ -871,7 +895,11 @@
     }
 
 
-    /* formulario */
+/*=================
+
+    #formulario
+
+==================*/
 
     .formulario {
         background-color: var(--background-terciario);
